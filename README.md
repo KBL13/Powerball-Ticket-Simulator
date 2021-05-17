@@ -1,2 +1,2 @@
 # Powerball-Ticket-Simulator
-CLI program to generate Powerball tickets based on weighted numbers from historical data pulled from https://www.lottery.net/powerball/statistics. Program originally written in C++ and simplified verision written in Java as a learning experience.
+CLI program to generate Powerball tickets based on weighted numbers from historical data pulled from https://www.lottery.net/powerball/statistics. Program originally written in C++ and simplified version written in Java as a learning experience.
