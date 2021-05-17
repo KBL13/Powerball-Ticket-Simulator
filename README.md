@@ -1,8 +1,2 @@
 # Powerball-Ticket-Simulator
-Premise is that the larger the sample size, the more accurate the results will be. Taking Powerball historical data as a seed for applying number frequencies as weights, this program will take random numbers from the set and provide lottery tickets based off desired simulated runs. 
-
-Program is designed as a senario where if the powerball numbers had weights on them based on historical data of how frequent they are picked, can we run a large sample size simulation to accurately predict lottery numbers. Process would be to start with a seed of number picked frequencies pulled from http://www.molottery.com/numberFrequencies.do?method=powerball and create a randomized number array of normal numbers times the frequency that they appear (Ex. Number 1 has a frequency of two and number 2 has a frequency of 3 then array [2,1,2,2,1] with a size of 5. Repeat the process for the the randomized power ball array. The iterations would be to pick 6 random numbers from 0 to "max size - 1" of the NormFrequenciesResults/PowerFrequenciesResults array without duplicates and add it to the our "seed" NormalFrequency/PowerFrequency array. The NormalFrequency/PowerFrequency should now contain a larger sample size by our simulated runs and we can rerun the process on a updated larger seed in hopes of providing a more accurate number selection.
-
-Version 1.01 - Normalize variables and add comments for better debugging and documentations.
-
-Future Updates - Object orientated standard by making functions modular.
+CLI program to generate Powerball tickets based on weighted numbers from historical data pulled from https://www.lottery.net/powerball/statistics. Program originally written in C++ and simplified verision written in Java as a learning experience.
